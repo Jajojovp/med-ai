@@ -8,13 +8,19 @@
   "dependencies": {
     "@types/react": "^18.2.62",
     "@types/react-dom": "^18.2.19",
-    "next": "^14.2.35",
+    "nanoid": "^3.3.18",
+    "next": "^15.5.27",
+    "postcss": "8.5.23",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "source-map-js": "^1.2.2",
     "typescript": "^5.8.3"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0",
     "@types/node": "24.0.7"
+  },
+  "overrides": {
+    "postcss": "8.5.23"
   }
 }
